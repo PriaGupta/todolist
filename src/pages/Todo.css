@@ -1,0 +1,43 @@
+.box1{
+    margin-top: 80px;
+}
+.box1 {
+    justify-content: center;
+    text-align: center;
+    border: 6px solid black;
+    padding: 60px 0px;
+    background-color:#42e2d0;
+}
+.head h3 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 2;
+    font-family: cursive;
+}
+.box1-inner input {
+    padding: 2px 5px;
+}
+
+.box1-inner button {
+    border-radius: 5px;
+    margin: 0px 10px;
+    padding: 0 6px;
+    background-color: rgb(106, 106, 241);
+}
+.remove-button {
+    margin: 5px 15px;
+    background-color: rgb(106, 106, 241);
+    border-radius: 5px;
+    padding: 2px 5px;
+}
+.todo-list li {
+    margin: 10px 0;
+    list-style: none !important;
+}
+
+@media (max-width: 576px) {
+    .box1 {
+      margin:300px 0;
+    }
+  }
+ 
